@@ -1,71 +1,72 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="">
-        <meta name="keywords" content="html, css, javasscript">
-        <meta name="author" content="Dorian Bernard-Bouissieres">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>I Love Cocktail</title>
-       <link rel="stylesheet" href="../css/style.css">
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-       </head>
-       <body>
-        <nav class="topnav" id="myTopnav">
-	
-          <img src="..\images\margarita.png">
-          <p>I love cocktail</p>
-          <a href="..\index.html">Accueil</a>
-          <a href="recette.html">recete</a>
-          <a href="contact.html">Contact</a>
-          
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-          </a>
-      
-      </nav>
-           <header>
-            <img src=..\images\bartender-making-delicious-refreshing-cocktail.jpg class="big-image">
-           </header>
-           <section>
-              <form>
-                  <label for="nom">nom:</label><br>
-                  <input type="text" id="nom" name="nom"><br>
-                <label for="prenom">prénom:</label><br>
-                <input type="prenom" id="prenom" name="prenom"><br>
-                <label for="mail">mail:</label><br>
-                <input type="mail" id="mail" name="mail"><br>
-                <label for="message">message:</label><br>
-                <input type="message" id="message" name="message"><br>
-                <button type="button" onclick="alert('message envoyé:)')">envoyer</button>
-              </form>
-              <table>
-              <div class="tableauxh">
-                <tr>
-                  <th>Nom</th>
-                  <th>Prénom</th>
-                  <th>Adresse mail</th>
-                </tr>
-              </div>
-              <div class="tableaub"> 
-                <tr>
-                  <td>Jean</td>
-                  <td>Dupont</td>
-                  <td>jean.dupont@mail.be</td>
-                </tr>
-                <tr>
-                  <td>Catherine</td>
-                  <td>Desmedt</td>
-                  <td>catherine.desmedt@mail.be</td>
-                </tr>
-              </div>
-              </table>
-            </section>
-         <footer>
-             <p>I love cocktail</p><br>
-             <p>rue du pont 24</p><br>
-             <p>5000 Namur</p><br>
-             <p><a href="..\pages\contact.html">info@ilovecocktail.be</a></p>
-         </footer>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="html, css, javasscript">
+    <meta name="author" content="Dorian Bernard-Bouissieres">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love Cocktail</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<nav class="topnav" id="myTopnav">
+    <div class="col-4">
+        <img src="../images/margarita.png">
+        <p>I love cocktail</p></div>
+    <div class="col-8">
+        <a href="../index.html" >Accueil</a>
+        <a href="./recette.html">recete</a>
+        <a href="./contact.html" class="active">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</nav>
+<header>
+    <img src=../images/bartender-making-delicious-refreshing-cocktail.jpg class="big-image">
+</header>
+<section>
+    <form>
+        <label for="nom">nom:</label><br>
+        <input type="text" id="nom" name="nom"><br>
+        <label for="prenom">prénom:</label><br>
+        <input type="prenom" id="prenom" name="prenom"><br>
+        <label for="mail">mail:</label><br>
+        <input type="mail" id="mail" name="mail"><br>
+        <label for="message">message:</label><br>
+        <input type="message" id="message" name="message"><br>
+        <button type="button" onclick="alert('message envoyé:)')">envoyer</button>
+    </form>
+    <table>
+        <div class="tableauxh">
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Adresse mail</th>
+            </tr>
+        </div>
+        <div class="tableaub">
+            <tr>
+                <td>Jean</td>
+                <td>Dupont</td>
+                <td>jean.dupont@mail.be</td>
+            </tr>
+            <tr>
+                <td>Catherine</td>
+                <td>Desmedt</td>
+                <td>catherine.desmedt@mail.be</td>
+            </tr>
+        </div>
+    </table>
+</section>
+<footer>
+    <p>I love cocktail</p><br>
+    <p>rue du pont 24</p><br>
+    <p>5000 Namur</p><br>
+    <p><a href="../pages/contact.html">info@ilovecocktail.be</a></p>
+</footer>
          <script>
           function myFunction() {
           var x = document.getElementById("myTopnav");
@@ -76,6 +77,6 @@
           }
         }
         </script>
-       </body>
-       
+</body>
+
 </html>
